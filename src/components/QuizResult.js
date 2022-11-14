@@ -1,15 +1,16 @@
 import { Fragment } from "react";
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
+import he from 'he';
 const QuizResult = (props) => {
     
     const result = props.selectedAns.map((data,index) => {
         return (
             <tr key={index} className={`${props.question[index].answer === data ? 'true' : 'wrong'}`}>
                 <td>{index + 1}</td>
-                <td>{props.question[index].question}</td>
-                <td>{props.question[index].answer}</td>
-                <td>{data  ? data : '-'}</td>
+                <td>{he.decode(props.question[index].question)}</td>
+                <td>{he.decode(props.question[index].answer)}</td>
+                <td>{data  ? he.decode(data) : '-'}</td>
             </tr>
         )
     });
