@@ -1,0 +1,16 @@
+.quiz-container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.result-container {
+    margin: 20px auto;
+}
+
+.quiz-container .answer-card {
+    padding: 20px;
+}
+
+.answer-list .answer {
+    cursor: pointer;
+}

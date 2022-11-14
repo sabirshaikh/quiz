@@ -1,0 +1,105 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "question": "What was the first commerically available computer processor?",
+      "answer": "Intel 4004",
+      "answers": [
+        "Intel 486SX",
+        "Intel 4004",
+        "TMS 1000",
+        "AMD AM386"
+      ]
+    },
+    {
+      "question": "Which of these is the name for the failed key escrow device introduced by the National Security Agency in 1993?",
+      "answer": "Clipper Chip",
+      "answers": [
+        "Enigma Machine",
+        "Clipper Chip",
+        "Skipjack",
+        "Nautilus"
+      ]
+    },
+    {
+      "question": "Which coding language was the #1 programming language in terms of usage on GitHub in 2015?",
+      "answer": "JavaScript",
+      "answers": [
+        "C#",
+        "JavaScript",
+        "Python",
+        "PHP"
+      ]
+    },
+    {
+      "question": "What does the term GPU stand for?",
+      "answer": "Graphics Processing Unit",
+      "answers": [
+        "Gaming Processor Unit",
+        "Graphics Processing Unit",
+        "Graphite Producing Unit",
+        "Graphical Proprietary Unit"
+      ]
+    },
+    {
+      "question": "What is the main CPU is the Sega Mega Drive / Sega Genesis?",
+      "answer": "Motorola 68000",
+      "answers": [
+        "Zilog Z80",
+        "Motorola 68000",
+        "Yamaha YM2612",
+        "Intel 8088"
+      ]
+    },
+    {
+      "question": "What was the first Android version specifically optimized for tablets?",
+      "answer": "Honeycomb",
+      "answers": [
+        "Eclair",
+        "Honeycomb",
+        "Froyo",
+        "Marshmellow"
+      ]
+    },
+    {
+      "question": "Which of these people was NOT a founder of Apple Inc?",
+      "answer": "Jonathan Ive",
+      "answers": [
+        "Steve Jobs",
+        "Jonathan Ive",
+        "Ronald Wayne",
+        "Steve Wozniak"
+      ]
+    },
+    {
+      "question": "What does RAID stand for?",
+      "answer": "Redundant Array of Independent Disks",
+      "answers": [
+        "Rapid Access for Indexed Devices",
+        "Redundant Array of Independent Disks",
+        "Range of Applications with Identical Designs",
+        "Randomized Abstract Identification Description"
+      ]
+    },
+    {
+      "question": "How many bytes are in a single Kibibyte?",
+      "answer": "1024",
+      "answers": [
+        "2400",
+        "1024",
+        "1000",
+        "1240"
+      ]
+    },
+    {
+      "question": "What is the number of keys on a standard Windows Keyboard?",
+      "answer": "104",
+      "answers": [
+        "64",
+        "104",
+        "94",
+        "76"
+      ]
+    }
+  ]
+}
