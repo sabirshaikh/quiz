@@ -84,7 +84,7 @@ const Quiz = () => {
                   
                     <Button variant="success" onClick={() => {setQuizStart(true)}}>Start Quiz</Button></Card>}
                
-                { quizStart && <Card className={classes['answer-card']}>
+                { quizStart && question && <Card className={classes['answer-card']}>
                     {!quizEnd &&  <Card.Title> Q.{current+1} {he.decode(question[current].question)}</Card.Title>}
                     <Card.Body className="px-0">
                     {!quizEnd && 
