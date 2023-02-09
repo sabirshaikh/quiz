@@ -1,4 +1,4 @@
-import { Fragment, useEffect } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "react-bootstrap/Navbar";
@@ -9,6 +9,7 @@ import { useDispatch } from 'react-redux';
 
 function App() {
   const dispatch = useDispatch();
+  const [loaded, setLoaded] = useState(false);
   const fetchQuestions = async () => {
     const response = await fetch('https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple')
     const responseData = await response.json();
@@ -26,6 +27,7 @@ function App() {
             }
           })
           dispatch(quizActions.setQuestions(questionList));
+          setLoaded(true);
       }
      
   }
@@ -40,7 +42,8 @@ function App() {
         </Container>
       </Navbar>
       <div className="App">
-        <Quiz/>
+       { !loaded &&  <center> Quiz is loading.... </center>}
+       { loaded && <Quiz/>}
       </div>
     </Fragment>
   );
