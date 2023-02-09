@@ -10,7 +10,7 @@ const CountDownTimer = (props) => {
 
     const renderer = ({ minutes, seconds, completed }) => {
         if (!completed) {
-            return <span>{minutes}:{seconds}</span>;
+            return <span>{minutes}:{ seconds > 9 ? "" + seconds: "0" + seconds}</span>;
         }
     };
 
